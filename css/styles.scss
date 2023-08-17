@@ -1,0 +1,72 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+
+*{
+    font-family: 'Josefin Sans', sans-serif
+
+}
+
+.nav{
+    box-shadow: 0 0 2rem -1rem rgba(0,0,0,0.8);
+    background-color: rgb(255, 210, 223);
+    img{
+        width: 10rem;
+        margin: 1rem;
+    }
+}
+
+
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card{
+    border-radius: 1rem;
+    margin:3rem;
+    box-shadow: 0 0 2rem -1rem rgba(0,0,0,0.8);
+    max-width: 22rem;
+
+
+    display: flex;
+    flex-direction: column;
+
+
+    img{
+        padding: 1rem;
+    }
+
+    p{
+        padding: 1rem;
+        margin: 0;
+    }
+
+    button{
+        text-decoration: none;
+        border: none;
+
+        padding: 1rem;
+        background-color: rgb(255, 163, 189);
+        border-radius: 1.5rem;
+        font-weight: 700;
+        font-size: large;
+        margin: 2rem;
+
+        box-shadow: 0 0 2rem -1rem rgba(0,0,0,0.8);
+
+        transition: 0.05s;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+
+}
